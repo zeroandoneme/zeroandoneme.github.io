@@ -1,11 +1,9 @@
----
----
-
 //
 // IMPORTS
 //
 
 @import "reset";
+@import "bootstrap";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
@@ -70,7 +68,7 @@ p {
 
 a {
   color: $blue;
-  text-decoration: none;
+  text-decoration: none !important;
 	cursor: pointer;
   &:hover, &:active {
     color: $blue;
@@ -287,3 +285,4 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+@import "header";

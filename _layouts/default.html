@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>
+      {% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{
+      site.description }}
+    </title>
 
     {% include meta.html %}
 
@@ -9,16 +12,24 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ site.baseurl }}/style.css"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="{{ site.name }} - {{ site.description }}"
+      href="{{ site.baseurl }}/feed.xml"
+    />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
   <body>
     <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
+      <!-- <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
           <div class="site-info">
@@ -30,19 +41,55 @@
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
-        </header>
-      </div>
+        </header> -->
+      <header>
+        <div class="container-fluid">
+          <div class="row header-holder">
+            <div class="col-2">
+              <div class="logo">
+                <a href="https://zeroandone.me">
+                  <img src="{{ site.avatar }}" />
+                </a>
+              </div>
+            </div>
+
+            <div class="header-nav col-md-9 col-lg-8 col-xl-7">
+              <div class="nav-search-holder">
+                <nav>
+                  <ul class="links-holder">
+                    <li class="links">
+                      <a href="{{ site.baseurl }}/">Blog</a>
+                    </li>
+                    <li class="links">
+                      <a href="{{ site.baseurl }}/about">About</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+
+            <div class="col-sm-1 burger-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="side-menu">
+          <ul class="links-holder">
+            <li class="links"><a href="{{ site.baseurl }}/">Blog</a></li>
+            <li class="links"><a href="{{ site.baseurl }}/about">About</a></li>
+          </ul>
+        </div>
+      </header>
     </div>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
+    <div id="main" role="main" class="container">{{ content }}</div>
 
     <div class="wrapper-footer">
       <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
+        <footer class="footer">{% include svg-icons.html %}</footer>
       </div>
     </div>
 
