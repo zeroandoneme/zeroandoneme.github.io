@@ -43,9 +43,9 @@
           </nav>
         </header> -->
       <header>
-        <div class="container-fluid">
+        <div class="container">
           <div class="row header-holder">
-            <div class="col-2">
+            <div class="col-2 col-lg-1">
               <div class="logo">
                 <a href="https://zeroandone.me">
                   <img src="{{ site.avatar }}" />
@@ -53,15 +53,29 @@
               </div>
             </div>
 
-            <div class="header-nav col-md-9 col-lg-8 col-xl-7">
+            <div class="header-nav col-md-10 col-lg-9">
               <div class="nav-search-holder">
                 <nav>
                   <ul class="links-holder">
                     <li class="links">
+                      <a href="https://zeroandone.me/AWS.html">AWS</a>
+                    </li>
+                    <li class="links services">
+                      <a href="https://zeroandone.me/services.html">Services</a>
+                    </li>
+                    <li class="links case-studies">
+                      <a href="https://zeroandone.me/case-studies.html"
+                        >case studies</a
+                      >
+                    </li>
+                    <li class="links">
+                      <a href="https://zeroandone.me/about.html">About</a>
+                    </li>
+                    <li class="links">
                       <a href="{{ site.baseurl }}/">Blog</a>
                     </li>
                     <li class="links">
-                      <a href="{{ site.baseurl }}/about">About</a>
+                      <a href="https://zeroandone.me/#contactUs">Contact us</a>
                     </li>
                   </ul>
                 </nav>
@@ -78,21 +92,195 @@
         </div>
         <div class="side-menu">
           <ul class="links-holder">
+            <li class="links">
+              <a href="https://zeroandone.me/AWS.html">AWS</a>
+            </li>
+            <li class="links services">
+              <a href="https://zeroandone.me/services.html">Services</a>
+            </li>
+            <li class="links case-studies">
+              <a href="https://zeroandone.me/case-studies.html">case studies</a>
+            </li>
+            <li class="links">
+              <a href="https://zeroandone.me/about.html">About</a>
+            </li>
             <li class="links"><a href="{{ site.baseurl }}/">Blog</a></li>
-            <li class="links"><a href="{{ site.baseurl }}/about">About</a></li>
+            <li class="links">
+              <a href="https://zeroandone.me/#contactUs">Contact us</a>
+            </li>
           </ul>
         </div>
+        <div class="services-holder"></div>
+        <div class="links-services">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-md-4">
+                <ul class="services-links">
+                  <li class="links-categorie">Elevate</li>
+                  <li>
+                    <a href="https://zeroandone.me/cloud-adoption.html"
+                      >Cloud adoption</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://zeroandone.me/application-modernisation.html"
+                      >Application modernization</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://zeroandone.me/services.html"
+                      >data and analytics</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul class="services-links">
+                  <li class="links-categorie">Operate</li>
+                  <li>
+                    <a href="https://zeroandone.me/services.html"
+                      >managed cloud operations</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://zeroandone.me/professional-services.html"
+                      >professional services</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://zeroandone.me/cloud-cost-opt.html"
+                      >cloud cost optimization</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul class="services-links">
+                  <li class="links-categorie">Innovate</li>
+                  <li>
+                    <a href="https://zeroandone.me/services.html"
+                      >AI and machine learning</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://zeroandone.me/cloud-native-dev.html"
+                      >Cloud Native Development</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://zeroandone.me/services.html"
+                      >IoT Devices</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </header>
+
+      <div class="landing-div">
+        <div class="container">
+          <div class="row intro-wrapper">
+            <div class="col-md-11">
+              <div class="intro-holder">
+                <div class="intro">
+                  Sharing our experiences and thoughts with the world
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="main" role="main" class="container">{{ content }}</div>
 
     <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">{% include svg-icons.html %}</footer>
-      </div>
+      <!-- <footer class="footer">{% include svg-icons.html %}</footer> -->
+      <footer data-aos="fade-up">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-md-3">
+              <div class="aws-logo-holder">
+                <div class="aws-logo">
+                  <img src="../images/ptntwk.png" alt="" srcset="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 col-lg-3">
+              <ul class="links-holder">
+                <li class="title">Elevate</li>
+                <li class="links">
+                  <a href="cloud-adoption.html"> Cloud Adoption</a>
+                </li>
+                <li class="links">
+                  <a href="application-modernisation.html">
+                    Application Modernization</a
+                  >
+                </li>
+                <li class="links">
+                  <a href="services.html">Data And Analytics</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-3 col-lg-3">
+              <ul class="links-holder">
+                <li class="title">Operate</li>
+                <li class="links">
+                  <a href="services.html"> Managed Cloud Operations</a>
+                </li>
+                <li class="links">
+                  <a href="professional-services.html"
+                    >Professional Services
+                  </a>
+                </li>
+                <li class="links">
+                  <a href="cloud-cost-opt.html">Cloud Cost Optimization</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-3 col-lg-3">
+              <ul class="links-holder">
+                <li class="title">Innovate</li>
+
+                <li class="links">
+                  <a href="services.html"> AI And Machine Learning</a>
+                </li>
+                <li class="links">
+                  <a href="cloud-native-dev.html">Cloud Native Development </a>
+                </li>
+                <li class="links"><a href="services.html">IoT Devices </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="social-media-holder">
+            <div class="social-media">
+              <a
+                href="https://www.twitter.com/{{ site.footer-links.twitter }}"
+                class="twitter"
+              ></a>
+              <a
+                href="https://www.linkedin.com/company/{{ site.footer-links.linkedin }}"
+                class="linkedIn"
+              ></a>
+              <a
+                href="https://www.facebook.com/{{ site.footer-links.facebook }}"
+                class="facebook"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
 
     {% include analytics.html %}
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/scripts.js"></script>
   </body>
 </html>

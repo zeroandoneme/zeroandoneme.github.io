@@ -1,0 +1,135 @@
+footer {
+    background-color: #2F3440;
+    padding: 50px 0px;
+  
+    .row {
+      justify-content: space-between;
+    }
+  
+    .links-holder {
+      display: flex;
+      flex-direction: column;
+      margin:0;
+      padding:0;
+      text-align: left;
+        font-family: $montmedium;
+  
+      .title {
+        color: white;
+        font-size:15px;
+      }
+  
+      .links {
+        a {
+          color: #707070;
+          font-size: 14px;
+        }
+      }
+    }
+  
+    .aws-logo-holder {
+      color: white;
+  
+      .aws-logo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 5px;
+  
+        img {
+          width: 150px;
+        }
+  
+        .logo {
+          width: 55px;
+        }
+  
+        .slogan {
+          color: white;
+          text-transform: capitalize;
+          padding: 5px;
+          line-height: 1.4;
+          width: 90px;
+        }
+      }
+  
+      .logo-text-first {
+        padding: 3px;
+        text-transform: capitalize;
+        width: 140px;
+      }
+    }
+  }
+  
+  .social-media-holder {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: flex-end;
+    // height: 100%;
+  
+    .social-media {
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 23px;
+  
+      a {
+        display: block;
+        width: 40px;
+  
+        border-radius: 12px;
+        height: 40px;
+        margin-left: 20px;
+  
+        &.twitter {
+          background: rgba(0, 0, 0, 0.16) url("../images/twitter.svg") no-repeat center center;
+        }
+  
+        &.linkedIn {
+          background: rgba(0, 0, 0, 0.16) url("../images/linkedIn.svg") no-repeat center center;
+        }
+  
+        &.facebook {
+          background: rgba(0, 0, 0, 0.16) url("../images/facebook-f.svg") no-repeat center center;
+        }
+  
+        &:first-child {
+          margin: 0;
+        }
+      }
+    }
+  }
+  
+  @media(max-width:991px) {
+    .social-media-holder .social-media {
+  
+      margin-top: 30px;
+    }
+  }
+  
+  @media(max-width:767px) {
+  
+    footer {
+  
+      .aws-logo-holder {
+        margin: 10px;
+      }
+  
+      .links-holder {
+        margin: 10px;
+      }
+  
+  
+    }
+  }
+  
+  @media(max-width:470px) {
+    footer {
+      .aws-logo-holder {
+        .aws-logo {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
