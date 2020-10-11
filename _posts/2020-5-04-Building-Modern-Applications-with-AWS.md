@@ -80,7 +80,7 @@ And with open source tools like Cloud Custodian, we can provide built-in, consta
 
 Customers are building modern applications by changing their people, process, and technology so they can innovate faster and more frequently and bring those innovations to market faster, all while reducing costs and building more reliable applications.
 
-We truly are witnessing a paradigm shift, and it&#39;s driven by customers working backwards from what they need to do to win in the market.
+We truly are witnessing a paradigm shift, and it's driven by customers working backwards from what they need to do to win in the market.
 
 Businesses want to win more customers ,to win customers they need to build better products and to release features faster which requires faster and more frequent experimentation and innovation. They need the ability to focus on differentiating business logic and to decouple software for speed and safety.
 
