@@ -55,13 +55,12 @@ When you design your microservices, business logic and data management should be
 
 While we&#39;re not going to dive deep on AWS databases in this blog, I wanted to quickly share the breadth of purpose-built databases that AWS offers, beyond relational databases, to allow you select the right tool for the job
 
-![_config.yml]({{ site.baseurl }}/images/2020-5-04.Picture1.png)
-
+![_config.yml]({{ site.baseurl }}/images/2020-5-04/Picture1.png)
 **Software Delivery**
 
 In the old monolithic model, your release process might have something that looks like this:
 
-![_config.yml]({{ site.baseurl }}/images/2020-5-04.Picture2.png)
+![_config.yml]({{ site.baseurl }}/images/2020-5-04/Picture2.png)
 
 Developers will be stepping on each other, as they made changes in a big monolithic app, having to batch up and coordinate testing and releasing, causing changes to be deployed to production slowly and infrequently.
 
@@ -69,7 +68,7 @@ As you try to remove bottlenecks in this process and decompose for agility, you 
 
 In a product-based delivery environment, self-service tools and automation enable these DevOps team to own, and manage their own release process. Creating ownership from idea to operation and back. You can see how teams would be able to move much more quickly is this type of environment compared to the first one.
 
-![_config.yml]({{ site.baseurl }}/images/2020-5-04.Picture3.png)
+![_config.yml]({{ site.baseurl }}/images/2020-5-04/Picture3.png)
 
 Now that you have smaller teams, focused on a smaller scope via microservices, we have a simplified environment. Through automation, we can build and automate security, making the development team a part of your security team.
 
