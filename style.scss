@@ -21,7 +21,7 @@ html {
 }
 
 body {
-	background: $white;
+	background: #fff;
   font-family: $montmedium !important;
   color: $darkGray;
 }
@@ -268,6 +268,14 @@ nav {
   }
 }
 
+.post{
+  h1{
+    a{
+      transition:color 0.2s ease;
+    }
+  }
+}
+
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
@@ -278,6 +286,50 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+.view-more {
+  position: relative;
+  margin: 30px 0px;
+  display: inline-block;
+  z-index: 1;
+
+  button,
+  a {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: $montsemibold;
+    letter-spacing: 1.1px;
+    padding: 0px 30px;
+    border: 0;
+    background: none;
+    color: black;
+    outline: none;
+  }
+
+  span {
+    @extend a;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: 0;
+    z-index: -1;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #2F3440;
+    opacity: 0.08;
+    transition: left 0.5s ease-in-out;
+  }
+
+  &:hover {
+    &:before {
+      left: calc(100% - 90px);
+    }
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
