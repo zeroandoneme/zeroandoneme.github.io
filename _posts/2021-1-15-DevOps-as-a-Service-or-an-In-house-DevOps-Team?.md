@@ -7,7 +7,7 @@ DevOps was born because of the desperate need to get the right deployment of the
 
 **Enter DevOps.**
 
-    This meant the teams could now collaborate and thus deliver the application/service more efficiently. Therefore, [DevOps](https://theagileadmin.com/what-is-devops/ "DevOps") is a culture that aligns different aspects of an organization including, philosophies, tools, and people with the IT infrastructure.
+This meant the teams could now collaborate and thus deliver the application/service more efficiently. Therefore, [DevOps](https://theagileadmin.com/what-is-devops/ "DevOps") is a culture that aligns different aspects of an organization including, philosophies, tools, and people with the IT infrastructure.
 
 You can choose between - DaaS (DevOps as a Service) offered by AWS certified DevOps partners or hire your in-house DevOps teams.
 
@@ -17,7 +17,7 @@ In simple words, DevOps is a cultural marriage between the application developme
 
 Therefore, DevOps continuously improves and automates workflows to manage cloud services and applications.
 
-**Why does this matter? **
+**Why does this matter?**
 
 These partners help to accelerate the time to market of your application/service and save the overall costs of your business. They achieve this by using off-the-shelf templates while applying DevOps.
 
