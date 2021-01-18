@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Zero&One A Certified AWS DevOps Competency Partner
+title: Zero&One – One of MENA’s first AWS Well-Architected Partners
 ---
 
 For over 14 years, Amazon Web Services (AWS) has been serving its customers by using the latest technology to support the smooth running of applications and software. In the continuous effort to make the cloud a more secure and versatile platform, Amazon plans to empower the AWS partner network with its latest list of best practices - [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc "AWS Well-Architected Framework").

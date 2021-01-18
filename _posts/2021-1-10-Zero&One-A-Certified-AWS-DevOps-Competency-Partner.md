@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Zero&One – One of MENA’s first AWS Well-Architected Partners
+title: Zero&One A Certified AWS DevOps Competency Partner
 ---
 
 As per [Gartner](https://www.gartner.com/en/information-technology/glossary/devops "Gartner"), DevOps is the amalgamation of agile infrastructure with agile operations. It is a set of tools and practices that aligns people and culture with the latest IT infrastructure to deliver services and products at a much faster pace.
