@@ -27,6 +27,8 @@ Amazon is serving millions of customers across all business verticals. Ranging f
 
 Therefore, the AWS Competency Program is highly collaborative across industries using various workloads like SAP, SAAS, Microsoft Workloads, and Oracle.
 
+![_config.yml]({{ site.baseurl }}/images/2020-12-28/DevOps_2020.png)
+
 **Achieve DevOps with Zero&One**
 
 [Zero&One](https://zeroandone.me/ "Zero&One") is an Advanced Consulting Partner of AWS. We offer DevOps services to help in application modernization by merging siloed teams and focusing on **CAMS** (Culture, Automation, Measurement, Sharing) and **3C's** (Collect, Collaborate, and Correlate). These are based on the AWS DevOps best practices and competencies.
