@@ -27,7 +27,9 @@ Amazon is serving millions of customers across all business verticals. Ranging f
 
 Therefore, the AWS Competency Program is highly collaborative across industries using various workloads like SAP, SAAS, Microsoft Workloads, and Oracle.
 
+{:refdef: style="text-align: center;"}
 ![_config.yml]({{ site.baseurl }}/images/2020-12-28/DevOps_2020.png)
+{: refdef}
 
 **Achieve DevOps with Zero&One**
 
